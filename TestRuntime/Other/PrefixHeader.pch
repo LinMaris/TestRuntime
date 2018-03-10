@@ -10,11 +10,13 @@
 #define PrefixHeader_pch
 
 #ifndef __OPTIMIZE
-#define LCLog(FORMAT, ...) fprintf(stderr,"%s", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+#define LCLog(FORMAT, ...) fprintf(stderr,"%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
 
 #else
 #define LCLog(...) {}
 #endif
+
+#import <objc/runtime.h>
 
 #endif /* PrefixHeader_pch */
 

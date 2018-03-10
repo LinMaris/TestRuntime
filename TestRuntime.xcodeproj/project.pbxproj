@@ -8,20 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		0F19C799204421CC00249E3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F19C798204421CC00249E3F /* AppDelegate.m */; };
-		0F19C79C204421CC00249E3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F19C79B204421CC00249E3F /* ViewController.m */; };
+		0F19C79C204421CC00249E3F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F19C79B204421CC00249E3F /* HomeViewController.m */; };
 		0F19C79F204421CC00249E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F19C79D204421CC00249E3F /* Main.storyboard */; };
 		0F19C7A1204421CC00249E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F19C7A0204421CC00249E3F /* Assets.xcassets */; };
 		0F19C7A4204421CC00249E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F19C7A2204421CC00249E3F /* LaunchScreen.storyboard */; };
 		0F19C7A7204421CC00249E3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F19C7A6204421CC00249E3F /* main.m */; };
 		0F19C7B120443BA900249E3F /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F19C7B020443BA900249E3F /* UIButton+Extension.m */; };
+		0F4E2872205112F30050ECF2 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E2871205112F30050ECF2 /* Cat.m */; };
+		0F4E2875205113100050ECF2 /* MsgSendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E2874205113100050ECF2 /* MsgSendViewController.m */; };
+		0F4E2879205120880050ECF2 /* AssociatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E2878205120880050ECF2 /* AssociatedViewController.m */; };
+		0F4E287D20512A5C0050ECF2 /* MethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E287C20512A5C0050ECF2 /* MethodViewController.m */; };
+		0F4E288020512A7B0050ECF2 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E287F20512A7B0050ECF2 /* Student.m */; };
+		0F4E2884205135800050ECF2 /* ForwardMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E2883205135800050ECF2 /* ForwardMessageViewController.m */; };
+		0F4E2887205135C90050ECF2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E2886205135C90050ECF2 /* Person.m */; };
+		0F4E288B20513C500050ECF2 /* SwizzlMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E288A20513C500050ECF2 /* SwizzlMethodViewController.m */; };
+		0F4E288E20513CCF0050ECF2 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E288D20513CCF0050ECF2 /* UIImage+Extension.m */; };
+		0F4E289120514AFE0050ECF2 /* Teachers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E289020514AFE0050ECF2 /* Teachers.m */; };
+		0F4E2894205160CE0050ECF2 /* UIButton+Count.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E2893205160CE0050ECF2 /* UIButton+Count.m */; };
+		0F4E28982052330B0050ECF2 /* InvokecationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28972052330B0050ECF2 /* InvokecationController.m */; };
+		0F4E28E920528DD10050ECF2 /* Girls.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28E820528DD10050ECF2 /* Girls.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F19C794204421CC00249E3F /* TestRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F19C797204421CC00249E3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F19C798204421CC00249E3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0F19C79A204421CC00249E3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0F19C79B204421CC00249E3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F19C79A204421CC00249E3F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0F19C79B204421CC00249E3F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		0F19C79E204421CC00249E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F19C7A0204421CC00249E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F19C7A3204421CC00249E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +43,32 @@
 		0F19C7AE20442A6E00249E3F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0F19C7AF20443BA900249E3F /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
 		0F19C7B020443BA900249E3F /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		0F4E2870205112F30050ECF2 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		0F4E2871205112F30050ECF2 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		0F4E2873205113100050ECF2 /* MsgSendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgSendViewController.h; sourceTree = "<group>"; };
+		0F4E2874205113100050ECF2 /* MsgSendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgSendViewController.m; sourceTree = "<group>"; };
+		0F4E2877205120880050ECF2 /* AssociatedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssociatedViewController.h; sourceTree = "<group>"; };
+		0F4E2878205120880050ECF2 /* AssociatedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssociatedViewController.m; sourceTree = "<group>"; };
+		0F4E287B20512A5C0050ECF2 /* MethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodViewController.h; sourceTree = "<group>"; };
+		0F4E287C20512A5C0050ECF2 /* MethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodViewController.m; sourceTree = "<group>"; };
+		0F4E287E20512A7B0050ECF2 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		0F4E287F20512A7B0050ECF2 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		0F4E2882205135800050ECF2 /* ForwardMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardMessageViewController.h; sourceTree = "<group>"; };
+		0F4E2883205135800050ECF2 /* ForwardMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardMessageViewController.m; sourceTree = "<group>"; };
+		0F4E2885205135C90050ECF2 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0F4E2886205135C90050ECF2 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0F4E288920513C500050ECF2 /* SwizzlMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzlMethodViewController.h; sourceTree = "<group>"; };
+		0F4E288A20513C500050ECF2 /* SwizzlMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwizzlMethodViewController.m; sourceTree = "<group>"; };
+		0F4E288C20513CCF0050ECF2 /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		0F4E288D20513CCF0050ECF2 /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		0F4E288F20514AFE0050ECF2 /* Teachers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teachers.h; sourceTree = "<group>"; };
+		0F4E289020514AFE0050ECF2 /* Teachers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teachers.m; sourceTree = "<group>"; };
+		0F4E2892205160CE0050ECF2 /* UIButton+Count.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Count.h"; sourceTree = "<group>"; };
+		0F4E2893205160CE0050ECF2 /* UIButton+Count.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Count.m"; sourceTree = "<group>"; };
+		0F4E28962052330B0050ECF2 /* InvokecationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvokecationController.h; sourceTree = "<group>"; };
+		0F4E28972052330B0050ECF2 /* InvokecationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvokecationController.m; sourceTree = "<group>"; };
+		0F4E28E720528DD10050ECF2 /* Girls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Girls.h; sourceTree = "<group>"; };
+		0F4E28E820528DD10050ECF2 /* Girls.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Girls.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +103,14 @@
 			children = (
 				0F19C797204421CC00249E3F /* AppDelegate.h */,
 				0F19C798204421CC00249E3F /* AppDelegate.m */,
-				0F19C79A204421CC00249E3F /* ViewController.h */,
-				0F19C79B204421CC00249E3F /* ViewController.m */,
-				0F19C7AF20443BA900249E3F /* UIButton+Extension.h */,
-				0F19C7B020443BA900249E3F /* UIButton+Extension.m */,
+				0F19C79A204421CC00249E3F /* HomeViewController.h */,
+				0F19C79B204421CC00249E3F /* HomeViewController.m */,
+				0F4E286F205112150050ECF2 /* Messages(消息机制) */,
+				0F4E2876205120610050ECF2 /* AssociatedObject(关联属性) */,
+				0F4E287A20512A2C0050ECF2 /* ResolveInstanceMethod(动态添加方法) */,
+				0F4E2881205135580050ECF2 /* ForwardMessage(消息转发) */,
+				0F4E288820513C050050ECF2 /* SwizzlMethod(方法交换) */,
+				0F4E2895205232DA0050ECF2 /* NSInvocation使用 */,
 				0F19C7AD204421E300249E3F /* Other */,
 			);
 			path = TestRuntime;
@@ -84,6 +127,76 @@
 				0F19C7AE20442A6E00249E3F /* PrefixHeader.pch */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		0F4E286F205112150050ECF2 /* Messages(消息机制) */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E2870205112F30050ECF2 /* Cat.h */,
+				0F4E2871205112F30050ECF2 /* Cat.m */,
+				0F4E2873205113100050ECF2 /* MsgSendViewController.h */,
+				0F4E2874205113100050ECF2 /* MsgSendViewController.m */,
+			);
+			path = "Messages(消息机制)";
+			sourceTree = "<group>";
+		};
+		0F4E2876205120610050ECF2 /* AssociatedObject(关联属性) */ = {
+			isa = PBXGroup;
+			children = (
+				0F19C7AF20443BA900249E3F /* UIButton+Extension.h */,
+				0F19C7B020443BA900249E3F /* UIButton+Extension.m */,
+				0F4E2877205120880050ECF2 /* AssociatedViewController.h */,
+				0F4E2878205120880050ECF2 /* AssociatedViewController.m */,
+			);
+			path = "AssociatedObject(关联属性)";
+			sourceTree = "<group>";
+		};
+		0F4E287A20512A2C0050ECF2 /* ResolveInstanceMethod(动态添加方法) */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E287B20512A5C0050ECF2 /* MethodViewController.h */,
+				0F4E287C20512A5C0050ECF2 /* MethodViewController.m */,
+				0F4E287E20512A7B0050ECF2 /* Student.h */,
+				0F4E287F20512A7B0050ECF2 /* Student.m */,
+			);
+			path = "ResolveInstanceMethod(动态添加方法)";
+			sourceTree = "<group>";
+		};
+		0F4E2881205135580050ECF2 /* ForwardMessage(消息转发) */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E2882205135800050ECF2 /* ForwardMessageViewController.h */,
+				0F4E2883205135800050ECF2 /* ForwardMessageViewController.m */,
+				0F4E2885205135C90050ECF2 /* Person.h */,
+				0F4E2886205135C90050ECF2 /* Person.m */,
+			);
+			path = "ForwardMessage(消息转发)";
+			sourceTree = "<group>";
+		};
+		0F4E288820513C050050ECF2 /* SwizzlMethod(方法交换) */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E288920513C500050ECF2 /* SwizzlMethodViewController.h */,
+				0F4E288A20513C500050ECF2 /* SwizzlMethodViewController.m */,
+				0F4E288C20513CCF0050ECF2 /* UIImage+Extension.h */,
+				0F4E288D20513CCF0050ECF2 /* UIImage+Extension.m */,
+				0F4E288F20514AFE0050ECF2 /* Teachers.h */,
+				0F4E289020514AFE0050ECF2 /* Teachers.m */,
+				0F4E2892205160CE0050ECF2 /* UIButton+Count.h */,
+				0F4E2893205160CE0050ECF2 /* UIButton+Count.m */,
+			);
+			path = "SwizzlMethod(方法交换)";
+			sourceTree = "<group>";
+		};
+		0F4E2895205232DA0050ECF2 /* NSInvocation使用 */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E28962052330B0050ECF2 /* InvokecationController.h */,
+				0F4E28972052330B0050ECF2 /* InvokecationController.m */,
+				0F4E28E720528DD10050ECF2 /* Girls.h */,
+				0F4E28E820528DD10050ECF2 /* Girls.m */,
+			);
+			path = "NSInvocation使用";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,10 +270,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F19C79C204421CC00249E3F /* ViewController.m in Sources */,
+				0F19C79C204421CC00249E3F /* HomeViewController.m in Sources */,
+				0F4E28982052330B0050ECF2 /* InvokecationController.m in Sources */,
+				0F4E287D20512A5C0050ECF2 /* MethodViewController.m in Sources */,
+				0F4E2887205135C90050ECF2 /* Person.m in Sources */,
 				0F19C7B120443BA900249E3F /* UIButton+Extension.m in Sources */,
 				0F19C7A7204421CC00249E3F /* main.m in Sources */,
+				0F4E2879205120880050ECF2 /* AssociatedViewController.m in Sources */,
 				0F19C799204421CC00249E3F /* AppDelegate.m in Sources */,
+				0F4E2884205135800050ECF2 /* ForwardMessageViewController.m in Sources */,
+				0F4E28E920528DD10050ECF2 /* Girls.m in Sources */,
+				0F4E288E20513CCF0050ECF2 /* UIImage+Extension.m in Sources */,
+				0F4E2875205113100050ECF2 /* MsgSendViewController.m in Sources */,
+				0F4E289120514AFE0050ECF2 /* Teachers.m in Sources */,
+				0F4E2872205112F30050ECF2 /* Cat.m in Sources */,
+				0F4E288B20513C500050ECF2 /* SwizzlMethodViewController.m in Sources */,
+				0F4E288020512A7B0050ECF2 /* Student.m in Sources */,
+				0F4E2894205160CE0050ECF2 /* UIButton+Count.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QBNT7R8ZWH;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = TestRuntime/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/TestRuntime/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -312,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QBNT7R8ZWH;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = TestRuntime/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/TestRuntime/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
