@@ -43,9 +43,9 @@
                             @"动态添加方法" : @"MethodViewController",
                             @"消息转发" : @"ForwardMessageViewController",
                             @"方法交换": @"SwizzlMethodViewController",
-                            @"字典转模型" : @"MsgSendViewController",
-                            @"对象归档、解档" : @"MsgSendViewController",
-                            @"Invokecation使用" : @"InvokecationController"
+                            @"字典转模型" : @"MakeModelController",
+                            @"对象归档、解档" : @"ArchiveViewController",
+                            @"Invokecation使用" : @"InvokecationController",
                             };
     }
     return _dataDictionary;
@@ -55,7 +55,7 @@
     
     self.title = @"Home";
     self.titleArrar = @[@"消息转发机制",@"动态关联属性",@"动态添加方法",@"消息转发",
-                        @"方法交换",@"字典转模型",@"对象归档、解档",@"Invokecation使用"];
+                        @"方法交换",@"字典转模型",@"对象归档、解档",@"Invokecation使用",@"字典转模型"];
     [self tableView];
 }
 

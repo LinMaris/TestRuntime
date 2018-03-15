@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0589872056CC4500C1BBA0 /* NSObject+LCCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0589862056CC4500C1BBA0 /* NSObject+LCCoding.m */; };
 		0F19C799204421CC00249E3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F19C798204421CC00249E3F /* AppDelegate.m */; };
 		0F19C79C204421CC00249E3F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F19C79B204421CC00249E3F /* HomeViewController.m */; };
 		0F19C79F204421CC00249E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F19C79D204421CC00249E3F /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		0F19C7A4204421CC00249E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F19C7A2204421CC00249E3F /* LaunchScreen.storyboard */; };
 		0F19C7A7204421CC00249E3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F19C7A6204421CC00249E3F /* main.m */; };
 		0F19C7B120443BA900249E3F /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F19C7B020443BA900249E3F /* UIButton+Extension.m */; };
+		0F3192C620576F6A0032ED6E /* NSObject+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3192C520576F6A0032ED6E /* NSObject+Item.m */; };
+		0F3192C920577CAB0032ED6E /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3192C820577CAB0032ED6E /* Movie.m */; };
+		0F3192CC2057A8930032ED6E /* Cinema.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3192CB2057A8930032ED6E /* Cinema.m */; };
 		0F4E2872205112F30050ECF2 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E2871205112F30050ECF2 /* Cat.m */; };
 		0F4E2875205113100050ECF2 /* MsgSendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E2874205113100050ECF2 /* MsgSendViewController.m */; };
 		0F4E2879205120880050ECF2 /* AssociatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E2878205120880050ECF2 /* AssociatedViewController.m */; };
@@ -27,9 +31,17 @@
 		0F4E2894205160CE0050ECF2 /* UIButton+Count.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E2893205160CE0050ECF2 /* UIButton+Count.m */; };
 		0F4E28982052330B0050ECF2 /* InvokecationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28972052330B0050ECF2 /* InvokecationController.m */; };
 		0F4E28E920528DD10050ECF2 /* Girls.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E28E820528DD10050ECF2 /* Girls.m */; };
+		0FFB101B205629CC0084F7F0 /* MakeModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFB101A205629CC0084F7F0 /* MakeModelController.m */; };
+		0FFB101E20562BBD0084F7F0 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFB101D20562BBD0084F7F0 /* HttpTool.m */; };
+		0FFB102120562F1F0084F7F0 /* GitHubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFB102020562F1F0084F7F0 /* GitHubModel.m */; };
+		0FFB102420562F500084F7F0 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFB102320562F500084F7F0 /* NSObject+Model.m */; };
+		0FFB10282056508D0084F7F0 /* ArchiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFB10272056508D0084F7F0 /* ArchiveViewController.m */; };
+		0FFB102B2056510A0084F7F0 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFB102A2056510A0084F7F0 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0589852056CC4500C1BBA0 /* NSObject+LCCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LCCoding.h"; sourceTree = "<group>"; };
+		0F0589862056CC4500C1BBA0 /* NSObject+LCCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LCCoding.m"; sourceTree = "<group>"; };
 		0F19C794204421CC00249E3F /* TestRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F19C797204421CC00249E3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F19C798204421CC00249E3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +55,12 @@
 		0F19C7AE20442A6E00249E3F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0F19C7AF20443BA900249E3F /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
 		0F19C7B020443BA900249E3F /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		0F3192C420576F6A0032ED6E /* NSObject+Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Item.h"; sourceTree = "<group>"; };
+		0F3192C520576F6A0032ED6E /* NSObject+Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Item.m"; sourceTree = "<group>"; };
+		0F3192C720577CAB0032ED6E /* Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		0F3192C820577CAB0032ED6E /* Movie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		0F3192CA2057A8930032ED6E /* Cinema.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cinema.h; sourceTree = "<group>"; };
+		0F3192CB2057A8930032ED6E /* Cinema.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cinema.m; sourceTree = "<group>"; };
 		0F4E2870205112F30050ECF2 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		0F4E2871205112F30050ECF2 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		0F4E2873205113100050ECF2 /* MsgSendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgSendViewController.h; sourceTree = "<group>"; };
@@ -69,6 +87,18 @@
 		0F4E28972052330B0050ECF2 /* InvokecationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvokecationController.m; sourceTree = "<group>"; };
 		0F4E28E720528DD10050ECF2 /* Girls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Girls.h; sourceTree = "<group>"; };
 		0F4E28E820528DD10050ECF2 /* Girls.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Girls.m; sourceTree = "<group>"; };
+		0FFB1019205629CC0084F7F0 /* MakeModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeModelController.h; sourceTree = "<group>"; };
+		0FFB101A205629CC0084F7F0 /* MakeModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeModelController.m; sourceTree = "<group>"; };
+		0FFB101C20562BBD0084F7F0 /* HttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		0FFB101D20562BBD0084F7F0 /* HttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		0FFB101F20562F1F0084F7F0 /* GitHubModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitHubModel.h; sourceTree = "<group>"; };
+		0FFB102020562F1F0084F7F0 /* GitHubModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubModel.m; sourceTree = "<group>"; };
+		0FFB102220562F500084F7F0 /* NSObject+Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		0FFB102320562F500084F7F0 /* NSObject+Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		0FFB10262056508D0084F7F0 /* ArchiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchiveViewController.h; sourceTree = "<group>"; };
+		0FFB10272056508D0084F7F0 /* ArchiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchiveViewController.m; sourceTree = "<group>"; };
+		0FFB10292056510A0084F7F0 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		0FFB102A2056510A0084F7F0 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +112,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F0589842056CC1000C1BBA0 /* LCExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0F0589852056CC4500C1BBA0 /* NSObject+LCCoding.h */,
+				0F0589862056CC4500C1BBA0 /* NSObject+LCCoding.m */,
+			);
+			path = LCExtension;
+			sourceTree = "<group>";
+		};
 		0F19C78B204421CC00249E3F = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +150,8 @@
 				0F4E2881205135580050ECF2 /* ForwardMessage(消息转发) */,
 				0F4E288820513C050050ECF2 /* SwizzlMethod(方法交换) */,
 				0F4E2895205232DA0050ECF2 /* NSInvocation使用 */,
+				0FFB10182056293E0084F7F0 /* MakeModel(字典转模型) */,
+				0FFB1025205650350084F7F0 /* ObjectArchive(对象归档、解档) */,
 				0F19C7AD204421E300249E3F /* Other */,
 			);
 			path = TestRuntime;
@@ -199,6 +240,39 @@
 			path = "NSInvocation使用";
 			sourceTree = "<group>";
 		};
+		0FFB10182056293E0084F7F0 /* MakeModel(字典转模型) */ = {
+			isa = PBXGroup;
+			children = (
+				0FFB1019205629CC0084F7F0 /* MakeModelController.h */,
+				0FFB101A205629CC0084F7F0 /* MakeModelController.m */,
+				0FFB101C20562BBD0084F7F0 /* HttpTool.h */,
+				0FFB101D20562BBD0084F7F0 /* HttpTool.m */,
+				0FFB101F20562F1F0084F7F0 /* GitHubModel.h */,
+				0FFB102020562F1F0084F7F0 /* GitHubModel.m */,
+				0F3192C720577CAB0032ED6E /* Movie.h */,
+				0F3192C820577CAB0032ED6E /* Movie.m */,
+				0F3192CA2057A8930032ED6E /* Cinema.h */,
+				0F3192CB2057A8930032ED6E /* Cinema.m */,
+				0FFB102220562F500084F7F0 /* NSObject+Model.h */,
+				0FFB102320562F500084F7F0 /* NSObject+Model.m */,
+				0F3192C420576F6A0032ED6E /* NSObject+Item.h */,
+				0F3192C520576F6A0032ED6E /* NSObject+Item.m */,
+			);
+			path = "MakeModel(字典转模型)";
+			sourceTree = "<group>";
+		};
+		0FFB1025205650350084F7F0 /* ObjectArchive(对象归档、解档) */ = {
+			isa = PBXGroup;
+			children = (
+				0FFB10262056508D0084F7F0 /* ArchiveViewController.h */,
+				0FFB10272056508D0084F7F0 /* ArchiveViewController.m */,
+				0FFB10292056510A0084F7F0 /* Dog.h */,
+				0FFB102A2056510A0084F7F0 /* Dog.m */,
+				0F0589842056CC1000C1BBA0 /* LCExtension */,
+			);
+			path = "ObjectArchive(对象归档、解档)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -271,20 +345,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F19C79C204421CC00249E3F /* HomeViewController.m in Sources */,
+				0FFB102B2056510A0084F7F0 /* Dog.m in Sources */,
+				0FFB10282056508D0084F7F0 /* ArchiveViewController.m in Sources */,
 				0F4E28982052330B0050ECF2 /* InvokecationController.m in Sources */,
 				0F4E287D20512A5C0050ECF2 /* MethodViewController.m in Sources */,
+				0FFB101B205629CC0084F7F0 /* MakeModelController.m in Sources */,
 				0F4E2887205135C90050ECF2 /* Person.m in Sources */,
 				0F19C7B120443BA900249E3F /* UIButton+Extension.m in Sources */,
 				0F19C7A7204421CC00249E3F /* main.m in Sources */,
 				0F4E2879205120880050ECF2 /* AssociatedViewController.m in Sources */,
+				0F3192C920577CAB0032ED6E /* Movie.m in Sources */,
+				0F3192CC2057A8930032ED6E /* Cinema.m in Sources */,
 				0F19C799204421CC00249E3F /* AppDelegate.m in Sources */,
+				0FFB102420562F500084F7F0 /* NSObject+Model.m in Sources */,
 				0F4E2884205135800050ECF2 /* ForwardMessageViewController.m in Sources */,
 				0F4E28E920528DD10050ECF2 /* Girls.m in Sources */,
+				0FFB101E20562BBD0084F7F0 /* HttpTool.m in Sources */,
+				0FFB102120562F1F0084F7F0 /* GitHubModel.m in Sources */,
+				0F0589872056CC4500C1BBA0 /* NSObject+LCCoding.m in Sources */,
 				0F4E288E20513CCF0050ECF2 /* UIImage+Extension.m in Sources */,
 				0F4E2875205113100050ECF2 /* MsgSendViewController.m in Sources */,
 				0F4E289120514AFE0050ECF2 /* Teachers.m in Sources */,
 				0F4E2872205112F30050ECF2 /* Cat.m in Sources */,
 				0F4E288B20513C500050ECF2 /* SwizzlMethodViewController.m in Sources */,
+				0F3192C620576F6A0032ED6E /* NSObject+Item.m in Sources */,
 				0F4E288020512A7B0050ECF2 /* Student.m in Sources */,
 				0F4E2894205160CE0050ECF2 /* UIButton+Count.m in Sources */,
 			);

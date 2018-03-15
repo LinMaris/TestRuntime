@@ -7,6 +7,7 @@
 //
 
 #import "Cat.h"
+#import "NSObject+LCCoding.h"
 
 @implementation Cat
 
@@ -19,5 +20,7 @@
 {
     NSLog(@"跑了%ld米",meters);
 }
+
+LCCodingImplementation
 
 @end

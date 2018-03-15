@@ -9,6 +9,7 @@
 #import "MsgSendViewController.h"
 #import "Cat.h"
 #import <objc/message.h>
+#import "Dog.h"
 
 @interface MsgSendViewController ()
 
@@ -41,13 +42,13 @@
      */
     
     // 测试消息发送
-    [self testSendMsg];
+//    [self testSendMsg];
     
     // 输出类信息
-//    [self logInfo];
+    [self logInfo];
     
     // 通过runtime 设置属性值
-    [self testSet];
+//    [self testSet];
 }
 
 #pragma mark - 输出类信息
@@ -55,10 +56,10 @@
     unsigned int count;// 用于记录列表内的数量，进行循环输出
     
     // 获取属性列表
-    objc_property_t *propertyList = class_copyPropertyList([UITextField class], &count);
+    objc_property_t *propertyList = class_copyPropertyList([Cat class], &count);
     for (unsigned int i = 0; i < count; i++) {
         const char *propertyName = property_getName(propertyList[i]);
-        //        LCLog(@"propertyName%d==>%@\n ",i,[NSString stringWithUTF8String:propertyName]);
+//                LCLog(@"propertyName%d==>%@\n ",i,[NSString stringWithUTF8String:propertyName]);
     }
     
     // 获取方法列表
@@ -70,17 +71,17 @@
     }
     
     // 获取成员变量列表
-    Ivar *ivarList = class_copyIvarList([UITextField class], &count);
+    Ivar *ivarList = class_copyIvarList([Cat class], &count);
     for (unsigned int i = 0; i < count; i++){
         const char *ivarName = ivar_getName(ivarList[i]);
-        LCLog(@"ivarName%d:==>%@\n",i,[NSString stringWithUTF8String:ivarName]);
+//        LCLog(@"ivarName%d:==>%@\n",i,[NSString stringWithUTF8String:ivarName]);
     }
     
     [self.view addSubview:({
         UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 100, 44)];
         tf.placeholder = @"hello world!";
         tf.backgroundColor = [UIColor lightGrayColor];
-        [tf setValue:[UIColor redColor] forKeyPath:@"_placeholderLabel.textColor"];
+//        [tf setValue:[UIColor redColor] forKeyPath:@"_placeholderLabel.textColor"];
         tf;
     })];
     [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(endEdit)]];
